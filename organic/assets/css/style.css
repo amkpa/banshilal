@@ -781,6 +781,12 @@ p {
   .pagination_nav {
     flex-wrap: wrap;
   }
+  #initial_banner{
+    margin-top: -380px;
+  }
+  #initial_banner h2{
+    
+  }
 
   .pagination_nav li {
     margin-bottom: 10px;
@@ -10651,7 +10657,10 @@ input[type=text]:focus {
     color: black !important;
   }
   .banner_title > h2:nth-child(1) {
-    padding-right: 50px;
-  }  
+    margin-top: 50px;
+  } 
+  .banner_section_item {
+    margin-bottom: -100px;
+  }
 }
 
